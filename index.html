@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/e26b7adae1.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Temperature converter</title>
+  </head>
+  <body>
+    <h1>Temperature converter</h1>
+
+    <i class="fas fa-thermometer-three-quarters"></i>
+
+    <!-- from -->
+    <div class="wrapper">
+      <input class="input" type="text" value="0" />
+      <select class="fromUnit">
+        <option value="kelvin">Kelvin</option>
+        <option value="celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+      </select>
+    </div>
+    <!-- from end -->
+
+    <div class="divider">||</div>
+
+    <!-- to -->
+    <div class="wrapper">
+      <input class="output" disabled type="text" value="0" />
+      <select class="toUnit">
+        <option value="kelvin">Kelvin</option>
+        <option value="celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+      </select>
+    </div>
+    <!-- to end -->
+
+    <!-- results -->
+    <h3 class="formula">Result</h3>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

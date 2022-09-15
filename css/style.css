@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(
+      to right,
+      rgba(171, 170, 149, 0.9),
+      rgba(162, 125, 13, 0.6)
+    ),
+    url("https://images.pexels.com/photos/276205/pexels-photo-276205.jpeg?cs=srgb&dl=pexels-pixabay-276205.jpg&fm=jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 10px;
+}
+
+i {
+  font-size: 3.5rem;
+  color: rgb(232, 115, 19);
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+}
+
+select {
+  margin-top: -10px;
+  width: 100%;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 1.1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 5px #ccc;
+}
+
+input {
+  padding: 15px 10px;
+  width: 100%;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.divider {
+  color: #ccc;
+  font-size: 2rem;
+}
+
+.formula {
+  font-size: 2rem;
+  color: #fff;
+}
